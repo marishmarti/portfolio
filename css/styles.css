@@ -1,0 +1,21 @@
+.blue{
+    color:blue;
+}
+.red{
+    color: red;
+}
+.big_fonts{
+    font-size: 42px;
+}
+.sharik{
+    font-family: cursive;
+}
+#my_first_id{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .blue{
+        color: red;
+    }
+}
