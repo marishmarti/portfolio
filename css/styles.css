@@ -12,3 +12,30 @@ background-color:rgb(222, 207, 187);
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.col-md-4{
+  text-align: center;
+  width:"100%";
+  /* height:"100%";
+  position:absolute;
+  top:0;
+  left: 0; */
+}
+.sp, .pps{
+ height: auto;
+width: 100%;
+}
+.ps{
+    height: 100%;
+width: 100%;
+margin-left: 0px;
+}
+.video_sm{
+    height: 100%;
+}
+@media (max-width: 767px) {
+    .video_sm{
+        height: 300px;
+    }
+}
+
+
